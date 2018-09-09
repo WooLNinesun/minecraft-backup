@@ -1,0 +1,23 @@
+# projects
+fsgwiki/*
+
+# can find in backups
+instances/*
+modifications/*
+resourcepacks/*
+
+# java jre bin
+java_jres/*
+
+images/*
+!images/skins
+!images/nova-wallpapers
+
+# multimc configs
+MultiMC/*
+!MultiMC/icons
+!MultiMC/themes
+!MultiMC/multimc.cfg
+!MultiMC/qt.conf
+
+!**/.gitkeep

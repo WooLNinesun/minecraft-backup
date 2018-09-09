@@ -1,0 +1,10 @@
+kill @e[tag=boatandllama]
+
+/execute @p[m=c] ~ ~ ~ 
+summon minecraft:boat ~ ~100 ~ {
+    Invulnerable:1,
+    Tags:[
+        "boatandllama"
+    ]
+}
+

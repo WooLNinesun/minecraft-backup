@@ -1,0 +1,20 @@
+/execute @p[m=c] ~ ~ ~ 
+summon minecraft:boat -555.5 15 78.5 {
+    Passengers:[
+        { 
+            id:llama,
+            Tame:1,
+            Health:20,
+    Invulnerable:1,
+            CustomName:"賽羊駝",
+            NoAI:1, Silent:1,
+            Tags:[
+                "boatandllama"
+            ]
+        }
+    ],
+    Invulnerable:1,
+    Tags:[
+        "boatandllama"
+    ]
+}
